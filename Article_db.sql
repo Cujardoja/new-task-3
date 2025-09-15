@@ -1,0 +1,5 @@
+CREATE TABLE Article (
+  id INT IDENTITY(1,1) PRIMARY KEY,
+  title VARCHAR(255) NOT NULL,
+  body TEXT
+);
